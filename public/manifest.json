@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Tic Toc Toe",
+  "name": "Tic Toc Toe",
   "icons": [
     {
       "src": "favicon.ico",
