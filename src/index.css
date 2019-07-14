@@ -48,3 +48,35 @@ ol, ul {
 .game-info {
   margin-left: 20px;
 }
+
+li.active button{
+  font-weight: bold;
+}
+
+a.sort {
+  text-indent: -9999px;
+  font-size: 0;
+  width: 14px;
+  height: 14px;
+  display: block;
+  float: right;
+  cursor: pointer;
+}
+
+a.sort-asc {
+  background: url(/assets/images/sort-desc.png) no-repeat center center;
+  background-size: contain;
+}
+
+a.sort-desc {
+  background: url(/assets/images/sort-asc.png) no-repeat center center;
+  background-size: contain;
+}
+
+.width-60 {
+  width: 60px;
+}
+
+button.square.win {
+    color: #0dbf2b;
+}
